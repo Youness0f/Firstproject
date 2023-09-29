@@ -1,0 +1,19 @@
+{
+  "name": "my-video-cutting-app",
+  "version": "1.0.0",
+  "description": "Video cutting web application",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14"
+    // Add other dependencies as needed
+  },
+  "devDependencies": {
+    // Add development dependencies as needed
+  }
+}
