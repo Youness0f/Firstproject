@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# nuxt.js build
+.nuxt/
+dist/
+
+# Mac OS
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
