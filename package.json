@@ -1,19 +1,24 @@
 {
-  "name": "my-video-cutting-app",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "Video cutting web application",
+  "description": "Your project description",
+  "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "node server.js",
+    "build": "your-build-command"
   },
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "nuxt": "^2.15.8",
-    "vue": "^2.6.14"
-    // Add other dependencies as needed
+    "axios": "^0.24.0", // Example: Axios for making HTTP requests
+    "express": "^4.17.1", // Example: Express.js for building APIs
+    "vue": "^2.6.14", // Example: Vue.js for frontend development
+    // Add other dependencies here
   },
   "devDependencies": {
-    // Add development dependencies as needed
+    "babel-eslint": "^10.1.0", // Example: Babel ESLint for code linting
+    "eslint": "^8.0.0", // Example: ESLint for code linting
+    "webpack": "^5.58.2", // Example: Webpack for bundling assets
+    // Add other development dependencies here
   }
 }
